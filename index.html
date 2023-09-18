@@ -2,97 +2,143 @@
 <html>
 <head>
     <title>Mi Portafolio - Jen</title>
-<style>
-/* Estilos generales */
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f0f0f0;
-    }
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #A9C6D4;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        section {
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+        }
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #A9C6D4;
+            color: #fff;
+        }
+        /* Estilos de enlaces */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
 
-    header {
-        background-color: #A9C6D4;
-        color: #ffffff;
-        text-align: center;
-        padding: 20px 0;
-    }
-
-    h1 {
-        font-size: 36px;
-    }
-    section {
-        padding: 20px;
-        background-color: #fff;
-        margin: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-       
-    }
-    #section {
-    width: 200px; /* Ancho de la imagen */
-    height: 100px; /* Altura de la imagen */
+        /* Estilo para la imagen centrada y más pequeña */
+        .imagen-centrada {
+        display: block;
+        margin: 0 auto;
+        width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+        height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
+        border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+            }
+            
+/* Estilo para centrar el texto en la descripción del portafolio y limitar el ancho */
+.descripcion-portafolio {
+    text-align: center; /* Centrar el texto horizontalmente */
 }
- .imagen-portafolio {
-            width: 3150px; /* Cambia el ancho según tus preferencias */
-            height: auto; /* Mantener la proporción de aspecto original */
-       
-    h2 {
-        font-size: 24px;
-        color: #333;
-    }
-    p {
-        font-size: 16px;
-        line-height: 1.5;
-        color: #666;
-    }
 
-    footer {
-        text-align: center;
-        padding: 10px 0;
-        background-color: #A9C6D4;
-        color: #fff;
-    }
+.descripcion-portafolio p {
+    max-width: 600px; /* Limitar el ancho del texto a 400 píxeles */
+    margin: 0 auto; /* Centrar el elemento en la página */
+    text-align: center;
+    margin: 0 auto;
+}
+.descripcion-portafolio {
+    text-align: center;
+    margin-bottom: 20px; /* Agrega un margen inferior de 20px (ajusta según tus necesidades) */
+}
 
-    /* Estilos de enlaces */
-    a {
-        color: #007bff;
-        text-decoration: none;
-    }
 
-    a:hover {
-        text-decoration: underline;
-    }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista Horizontal</title>
+    <style>
+        /* Estilo para alinear horizontalmente los elementos <li> */
+        ul {
+            list-style-type: none; /* Quita los marcadores de lista */
+            padding: 0;
+            margin: 0;
+        }
 
-</style>
+        li {
+            display: inline; /* Alinea los elementos en línea horizontalmente */
+            margin-right: 10px; /* Agrega un margen entre los elementos si es necesario */
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Enlace 1</a></li>
+        <li><a href="#">Enlace 2</a></li>
+        <li><a href="#">Enlace 3</a></li>
+        <li><a href="#">Enlace 4</a></li>
+    </ul>
+</body>
+</html>
+
+    </style>
+
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
     <header>
         <h1>Bienvenido a Mi Portafolio</h1>
-    
     </header>
-    
+
     <section>
-        <h2>Sobre Mí</h2>
-        <p>¡Hola, soy Jen! Soy un publicista especializada en marketing digital Con un sólido conocimiento en la creación y ejecución de campañas publicitarias en plataformas como Google y Meta, análisis de competencia y diseño web. He impulsado el crecimiento y la visibilidad de numerosos negocios en la región.</p>
-        <img src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fG1hcmtldGluZyUyMGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Iconos de marketing">
-        
-    </section>
-    
+        <img class="imagen-centrada" src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fG1hcmtldGluZyUyMGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Iconos de marketing">
+        <ul> 
+        <h2>Jenny</h2>
+        <div class="descripcion-portafolio">
+            <p>Publicista especializada en marketing digital con un sólido conocimiento en la creación y ejecución de campañas publicitarias,análisis de competencia y diseño web. He impulsado el crecimiento y la visibilidad de PYMES en la región.</p>
+
+        </div>
+        <li><a href="https://www.facebook.com/tu-perfil-de-facebook">Facebook</a></li>
+        <li><a href="https://twitter.com/tu-perfil-de-twitter">Twitter</a></li>
+        <li><a href="https://www.instagram.com/tu-perfil-de-instagram">Instagram</a></li>
+    </ul>
+</section>
     <section>
         <h2>Proyectos Destacados</h2>
         <!-- Aquí puedes agregar información sobre tus proyectos destacados -->
     </section>
-    
+
     <section>
         <h2>Contacto</h2>
         <!-- Agrega aquí tus datos de contacto -->
     </section>
-    
+
     <footer>
         <p>&copy; 2023 Jen - Todos los derechos reservados</p>
     </footer>
 </body>
 </html>
-
